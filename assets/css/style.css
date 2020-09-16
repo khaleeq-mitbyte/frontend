@@ -1,4 +1,29 @@
+*{
+    box-sizing : border-box;
+    font-family : "Roboto", sans-serif;
+}
+body{
+    margin : 0px;
+    padding : 0px;
+}
 header{
     height: 600px;
     background-color: #4d94e4;
+}
+header > nav > ul > li {
+    display : inline-block;
+    color : #ffffff;
+    cursor : pointer;
+}
+header > nav > ul > li > a{
+    color: white;
+    font-weight : 700;
+    text-decoration : none;
+    padding-left : 30px;
+
+}
+header > nav {
+    padding-top: 40px;
+    text-align: right;
+    padding-right: 40px;
 }
