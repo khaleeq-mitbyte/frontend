@@ -10,20 +10,38 @@ header{
     height: 600px;
     background-color: #4d94e4;
 }
+header > nav {
+    padding-top : 20px;
+    text-align : right;
+    padding-right : 40px;
+}
 header > nav > ul > li {
     display : inline-block;
     color : #ffffff;
     cursor : pointer;
+    margin-left : 30px;
+}
+header > nav > ul > li > a:hover {
+    color:#b7d4f5;
 }
 header > nav > ul > li > a{
     color: white;
     font-weight : 700;
     text-decoration : none;
-    padding-left : 30px;
 
 }
-header > nav {
-    padding-top: 40px;
-    text-align: right;
-    padding-right: 40px;
+.signup-btn{
+    background-color :  white;
+    border-radius : 30px;
+    text-align: center;
+    height: 50px;
+    width: 130px;
+    line-height: 50px;
+}
+.signup-btn:hover{
+    background-color: #b7d4f5;
+}
+.signup-btn > a{
+    margin: auto;
+    color : #4d94e4;
 }
