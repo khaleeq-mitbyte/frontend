@@ -1,3 +1,4 @@
+/*general*/
 *{
     box-sizing : border-box;
     font-family : "Roboto", sans-serif;
@@ -6,12 +7,13 @@ body{
     margin : 0px;
     padding : 0px;
 }
+/* header navigation links*/
 header{
     height: 600px;
     background-color: #4d94e4;
+    padding-top : 20px;
 }
 header > nav {
-    padding-top : 20px;
     text-align : right;
     padding-right : 40px;
 }
@@ -44,4 +46,16 @@ header > nav > ul > li > a{
 .signup-btn > a, .signup-btn > a:hover{
     margin: auto;
     color : #4d94e4;
+}
+
+/*logo designing*/
+.logo{
+    width: 280px;
+    display: inline-block;
+    float: left;
+    padding-left: 40px;
+}
+.logo:hover{
+    opacity: 0.5;
+    cursor : pointer;
 }
