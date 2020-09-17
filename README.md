@@ -1,2 +1,2 @@
 # frontend
-A sample project to demonstrate HTML and CSS skills
+A sample project to enhance HTML and CSS skills
