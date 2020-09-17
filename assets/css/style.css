@@ -41,7 +41,7 @@ header > nav > ul > li > a{
 .signup-btn:hover{
     background-color: #b7d4f5;
 }
-.signup-btn > a{
+.signup-btn > a, .signup-btn > a:hover{
     margin: auto;
     color : #4d94e4;
 }
