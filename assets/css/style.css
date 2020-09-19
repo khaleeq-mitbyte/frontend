@@ -7,6 +7,8 @@ body{
     margin : 0px;
     padding : 0px;
 }
+/*----------------header section starts---------------*/
+
 /* header navigation links*/
 header{
     height: 600px;
@@ -106,5 +108,7 @@ header > nav > ul > li > a{
 	border-left: 900px solid  #4890e4;
     border-bottom: 200px solid transparent;
 }
+
+/*----------------header section ends-------------------*/
 
 
