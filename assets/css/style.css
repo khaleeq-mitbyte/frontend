@@ -11,7 +11,10 @@ body{
 header{
     height: 600px;
     background-color: #4d94e4;
+    background: url('../img/home-background.jpg');
+    background-size: cover;
     padding-top : 20px;
+    position: relative;/*to use position absolute in it*/
 }
 header > nav {
     text-align : right;
@@ -83,4 +86,25 @@ header > nav > ul > li > a{
     margin-top: 23px; 
     cursor: pointer;  
 }
+/*putting tablet image at bottom of header*/
+.header-tablet > img{
+    max-width: 47%;
+    margin-top: 50px;
+    position: absolute;
+    left: -100px;
+    z-index: 2;
+}
+/*making header bottom right corner white in triangle shape*/
+.white-triangle{
+    background-color: white;
+    float:right;
+    position: absolute;
+    right:0;
+    bottom: 0;
+    width: 0;
+	height: 0;
+	border-left: 900px solid  #4890e4;
+    border-bottom: 200px solid transparent;
+}
+
 
