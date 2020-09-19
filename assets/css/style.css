@@ -60,3 +60,27 @@ header > nav > ul > li > a{
     opacity: 0.5;
     cursor : pointer;
 }
+/*header-mid*/
+.header-mid{
+    color: white;
+    font-size: 49px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 100px;
+}
+.header-mid > button{
+    background-color :  white;
+    color: #4d94e4;
+    border: 2px solid white;
+    border-radius : 55px;
+    text-align: center;
+    height: 55px;
+    width: 215px;
+    line-height: 55px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 23px; 
+    cursor: pointer;  
+}
+
