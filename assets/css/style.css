@@ -159,6 +159,7 @@ main > .main-top > p{
     background-color: grey;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 35px;
+    position: relative;
 
 }
 .box:hover{
@@ -182,34 +183,141 @@ main > .main-top > p{
 }
 
 /*individual boxes*/
-.left-a, .left-a  {
+.left-a  {
     background-color: #38454E;
+}
+.left-a .box-content{
+    color: white;
 }
 .left-b{
     background-color: white;
 }
+.left-b .box-content{
+    color: #4A4A4A;
+}
 .middle-a{
     background-color: white;
+}
+.middle-a .box-content{
+    color:#4A4A4A;
 }
 .middle-b{
     background-color: #ebb129;
 }
+.middle-b .box-content{
+    color: white;
+}
 .middle-c{
     background-color: #4990e2;
+}
+.middle-c .box-content{
+    color: white;
 }
 .right-a{
     background-color: #4990e2;
 }
+.right-a .box-content{
+    color: white;
+}
 .right-b{
     background-color: white;
+}
+.right-b .box-content{
+    color: #4A4A4A;
 }
 .right-c{
     background-color: #38454e;
 }
+.right-c .box-content{
+    color: #FFFFFF;
+}
 /* box images*/
+.box-img-container{
+    display: block;
+}
 .box-img{
     float:left;
 }
+
+.box-content{
+    position: relative;
+    top: 100px;
+    text-align: left;
+    padding-left:0px;
+    margin-left: 0px;
+}
+.box-content > p{
+    line-height: 32.2px;
+}
+/*main bottom*/
+.bottom{
+    height: 460px;
+    background-color: #38454e;
+}
+.bottom-content{
+    padding: 6% 15%;
+    color: white;
+}
+.bottom-content > h1{
+    font-size: 35px;
+    font-weight: 700px;
+    line-height: 1.1;
+    padding-bottom: 20px;
+
+}
+.bottom-box-a, .bottom-box-b, .bottom-box-c{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+.bottom-img-container{
+    text-align: center;
+    height: 59px;
+    line-height: 59px;
+
+}
+
 /*----------------main section ends-------------------*/
-
-
+.footer-top{
+    height: 400px;
+    margin-top: 35px;
+    padding-top: 7%;
+    padding-left: 9%;
+    padding-right: 9%;
+    margin: 0% 10%;
+    text-align: center;
+    background-image: url('../img/mountains.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer-content > h1{
+    color: #4990E2;
+    font-size: 35px;
+    font-weight: 700px;
+    line-height: 1.1;
+}
+.footer-content > p{
+    color: #4A4A4A;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 32px;
+    padding-bottom: 20px;
+}
+.footer-content > button{
+    background-color :  #4990E2;
+    color: white;
+    border: 2px solid white;
+    border-radius : 55px;
+    text-align: center;
+    height: 55px;
+    width: 215px;
+    line-height: 55px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 23px; 
+    cursor: pointer; 
+}
+.footer-content > button:hover{
+    background-color: #3C78BE;
+    opacity: 1;
+}
