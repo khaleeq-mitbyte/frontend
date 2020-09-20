@@ -278,6 +278,8 @@ main > .main-top > p{
 }
 
 /*----------------main section ends-------------------*/
+
+/*footer section starts*/
 .footer-top{
     height: 400px;
     margin-top: 35px;
@@ -321,3 +323,37 @@ main > .main-top > p{
     background-color: #3C78BE;
     opacity: 1;
 }
+/*footer links*/
+footer{
+    text-align: center;
+}
+footer  ul  li{
+    display: inline-block;
+    padding-left: 20px;
+}
+.footer-links > ul > li > a{
+    text-decoration: none;
+    color: #C3C2C2;
+    font-size: 0.85714rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.footer-links > ul > li > a:hover{
+    color: #222222;
+}
+/*social links*/
+.social-links > ul > li > a > img{
+    width: 25px;
+    height: auto;
+}
+.email, .rights > p{
+    padding: 0px;
+}
+.rights > p{
+    color: #4A4A4A;
+    opacity: 0.4;
+    font-size: 0.71429rem;
+    line-height: 1rem;
+    font-weight: 300;
+}
+/*footer section ends*/
