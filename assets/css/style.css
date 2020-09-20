@@ -357,3 +357,10 @@ footer  ul  li{
     font-weight: 300;
 }
 /*footer section ends*/
+
+/*chat button*/
+.chat{
+    position: fixed;
+    bottom: 15px;
+    right: 0px;
+}
